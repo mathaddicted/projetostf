@@ -1,0 +1,100 @@
+body{
+	background-color:rgb(52,152,219);
+}
+
+.logo {
+	display:block;
+	margin-top:50px;
+	margin-bottom:40px;
+	height:35px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.form{
+	box-sizing: border-box;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-left:auto;
+	margin-right: auto;
+	width:400px;
+	background-color:white;
+}
+.form{
+	font-family: 'Roboto', sans-serif;
+
+}
+.form h1{
+	padding-top:30px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-weight: normal;
+	color:rgb(52,73,94);
+}
+fieldset{
+	padding: 0px;
+	border-style: none;
+	display:block;
+	margin-left:auto;
+	margin-right: auto;
+}
+label{
+	font-weight:bold;
+	display:block;
+	margin-left:auto;
+	margin-right: auto;
+	padding:20px;
+	padding-left:0px;
+}
+#email, #password{
+	box-sizing: border-box;
+	width:320px;
+	height:55px;
+	border:2px solid rgb(189,195,199);
+	border-radius: 2px;
+	padding:15px;
+
+}
+#email::placeholder, #password::placeholder{
+	font-size:16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color:rgb(149,165,166);
+}
+
+#button{
+	box-sizing: border-box;
+	width:320px;
+	height: 55px;
+	padding:15px;
+	margin-top:25px;
+	border:none;
+	background-color:rgb(46,204,113);
+	color:white;
+	font-weight: bolder;
+	font-size:22px;
+	border-radius:2px;
+}
+#button:hover{
+	cursor: pointer;
+	background-color:rgb(39,174,96);
+}
+.form a{	
+	font-size:14px;
+	color:rgb(149,165,166);
+	display: block;
+	text-align: center;
+	padding:10px;
+	padding-bottom:25px;
+	font-weight: bold;
+}
+.login_link{
+	text-align: center;
+	display:block;
+	color:white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+	padding-bottom:100px;
+}
+.login_link a{
+	color:white;
+}
